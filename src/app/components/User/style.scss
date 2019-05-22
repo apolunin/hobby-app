@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+.User {
+  padding: $padding-standard;
+  text-align: center;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+}
+
+.SelectedUser {
+  @extend .User;
+  background-color: $selected-user-color;
+}

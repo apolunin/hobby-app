@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.Button {
+  background: none;
+  color: inherit;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.TextInput {
+  background: white;
+  color: inherit;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  padding: $padding-standard;
+  font: inherit;
+  cursor: text;
+  outline: inherit;
+  text-align: center;
+}

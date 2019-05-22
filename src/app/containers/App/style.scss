@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import '../../styles/variables.scss';
+
+.MainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header {
+  border: $default-border;
+  padding: 15px 0 12px 20px;
+}
+
+.ContentWrapper {
+  width: 90%;
+  min-width: 900px;
+}
+
+.MainContent {
+  display: flex;
+}
+
+
+
+
